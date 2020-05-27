@@ -59,11 +59,76 @@ ul li a{
 	padding: 10px;
 	text-align: center;
 	display: block;
+
 }
 
 .nav-link:hover{
 	font-size:30px;
-	background:#d4cfcf;
+	background:#4f0803;
+	border-radius: 15px;
 
 }
 
+#about{
+	display: flex;
+	padding: 40px;
+	justify-content: center;
+}
+
+.about-img{
+	flex:1;
+
+
+}
+
+h1{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#about img{
+	display: block;
+	margin:auto;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+
+.about-description{
+	flex:2;
+	text-align: center;
+	margin-top: 90px;
+	font-size: 25px;
+}
+
+
+#product-info{
+	display: flex;
+	flex-direction: column;
+}
+
+.product1{
+	display: flex;
+	justify-content: space-around;
+}
+
+.product1 div{
+	flex:1;
+}
+
+#video{
+	display: block;
+	margin:auto;
+}
+
+
+#form{
+	width:80%;
+	padding: 20px;
+	display: block;
+	margin:auto;
+}
+
+#submit{
+	padding: 10px;
+}
